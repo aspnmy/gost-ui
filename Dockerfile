@@ -19,4 +19,4 @@ FROM nginx:alpine
 
 COPY --from=builder /home/node/app/dist/ /usr/share/nginx/html/
 
-EXPOSE 80
+EXPOSE 999
